@@ -946,7 +946,7 @@ Section: About
 }
 
 /*===================================================
-Section: Services
+Section: Services / Skills
 ===================================================*/
 
 .section-services ul {
@@ -1192,6 +1192,7 @@ Section: Services
     .section-services .carousel-inner {
         margin-top: 55px;
         margin-bottom: 25px;
+        height: 400px;
     }
 
     .section-services .service-info h3 {
@@ -1200,7 +1201,20 @@ Section: Services
 
     .section-services img {
         margin: 30px auto 0;
+
     }
+
+    .section-services .carousel-inner img {
+
+        width: 80px;
+        height: 80px;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+        -o-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -1226,6 +1240,7 @@ Section: Services
     .section-services .carousel-inner {
         margin-top: 35px;
         margin-bottom: 15px;
+        height: 470px;
     }
 
     .section-services .carousel-indicators .active .service .rectangle,
@@ -1246,8 +1261,29 @@ Section: Services
         min-height: 100%;
     }
 
+    .section-services .col-xs-2 {
+        min-width: 32%;
+
+    }
+
+    .section-services .col-xs-3 {
+        min-width: 48%;
+
+    }
+
     .section-services .col-sm-7 {
         position: relative;
+    }
+
+    .section-services .carousel-inner img {
+
+        width: 80px;
+        height: 80px;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+        -o-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+
     }
 
     .section-services .service-info h3 {
