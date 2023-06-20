@@ -2374,7 +2374,7 @@ MODALS
 }
 
 .modal-header {
-    height: 400px;
+    height: 450px;
 }
 
 .modal-header .rectangle {
@@ -2429,6 +2429,11 @@ MODALS
 @media only screen and (max-width: 767px) {
 
     /* MODALS */
+    .modal-header {
+        height: 100%;
+        width: 100%;
+    }
+
     .modal-dialog {
         margin: 30px 30px 10px 10px;
     }
@@ -2438,5 +2443,10 @@ MODALS
         top: -18px;
         height: 36px;
         width: 36px;
+    }
+
+    .modal-header .img-res {
+        height: 300px;
+        width: 100%;
     }
 }
