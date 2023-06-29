@@ -1794,6 +1794,7 @@ Section: Portfolio
 
 .portfolio-item {
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .portfolio-item .portfolio-item-thumb {
@@ -2439,6 +2440,8 @@ MODALS
 
 .modal-header img {
     object-fit: fill;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .modal-title {
