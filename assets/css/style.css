@@ -917,7 +917,6 @@ Section: About
     left: 0;
     z-index: -1;
     opacity: .5;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 }
 
 .about-content h2 {
@@ -980,12 +979,12 @@ Section: Services / Skills
 }
 
 .section-services .container-fluid {
-    padding: 100px 15px 10px;
+    padding: 100px 15px 50px;
 
 }
 
 .section-services .container-fluid+.container {
-    margin-top: 80px;
+    margin-top: 10px;
 }
 
 .section-services .col-sm-fifth {
@@ -997,7 +996,7 @@ Section: Services / Skills
     position: relative;
     min-height: 160px;
     width: 100%;
-    margin: 70px 0 0;
+    margin: 35px 0 0;
     bottom: 0;
     left: 0;
     border-bottom: 0;
@@ -1012,7 +1011,8 @@ Section: Services / Skills
 
 .section-services .carousel-inner {
     margin-top: 75px;
-    margin-bottom: 75px;
+    margin-bottom: 25px;
+    height: 360px;
 
 }
 
@@ -1179,21 +1179,21 @@ Section: Services / Skills
 
     /* Section: Services */
     .section-services .container-fluid {
-        padding: 80px 15px 50px;
+        padding: 80px 15px 30px;
     }
 
     .section-services .container-fluid+.container {
-        margin-top: 60px;
+        margin-top: 10px;
     }
 
     .section-services .nav-tabs {
-        margin-top: 50px;
+        margin-top: 35px;
     }
 
     .section-services .carousel-inner {
         margin-top: 55px;
         margin-bottom: 25px;
-        height: 330px;
+        height: 310px;
     }
 
     .section-services .service-info h3 {
@@ -1222,15 +1222,15 @@ Section: Services / Skills
 
     /* Section: Services */
     .section-services .container-fluid {
-        padding: 60px 15px 30px;
+        padding: 60px 15px 15px;
     }
 
     .section-services .container-fluid+.container {
-        margin-top: 40px;
+        margin-top: 10px;
     }
 
     .section-services .nav-tabs {
-        margin-top: 30px;
+        margin-top: 10px;
         min-height: 70px;
     }
 
@@ -1494,8 +1494,7 @@ Section: History
 .timeline>li>.timeline-panel {
     width: 50%;
     float: left;
-    border-bottom: 1px solid #d4d4d4;
-    border-radius: 2px;
+
     position: relative;
     padding-right: 10px;
 }
@@ -1548,6 +1547,9 @@ Section: History
     position: relative;
     padding: 20px 0;
     min-height: 140px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #d4d4d4;
+    border-radius: 2px;
 }
 
 .timeline>li>.timeline-panel .timeline-body .timeline-body-thumb {
@@ -1555,6 +1557,7 @@ Section: History
     height: 100px;
     position: absolute;
     top: 20px;
+    margin-left: 10px;
 }
 
 .timeline>li>.timeline-panel .timeline-body p {
@@ -1562,6 +1565,7 @@ Section: History
     margin-bottom: 0;
     font-size: 20px;
     text-transform: uppercase;
+    margin-right: 10px;
 }
 
 .timeline>li .timeline-rectangle {
@@ -1594,6 +1598,19 @@ Section: History
 .timeline>li.timeline-inverted .timeline-panel:before {
     left: 0px;
     right: auto;
+}
+
+@media only screen and (max-width: 991px) {
+
+    /* Section: History */
+    .timeline>li>.timeline-panel .timeline-heading p {
+        font-size: 12px;
+    }
+
+    .timeline>li>.timeline-panel .timeline-body p {
+        font-size: 14px;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -1699,6 +1716,15 @@ Section: History
     .timeline>li .timeline-rectangle {
         display: none;
     }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding-right: 0;
+    }
+
+    .timeline>li>.timeline-panel .timeline-heading p {
+        font-size: 10px;
+    }
+
 }
 
 /*===================================================
@@ -2244,7 +2270,6 @@ Section: Contact
     border-bottom: 1px solid #dddddd;
     box-shadow: none;
     border-radius: 0;
-    -webkit-appearance: none;
 }
 
 .form-control:focus {
