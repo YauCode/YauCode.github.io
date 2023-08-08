@@ -750,7 +750,7 @@ Section: About
 ===================================================*/
 
 .section-about .row {
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .section-about .specializations {
@@ -787,6 +787,23 @@ Section: About
 .feature-about p {
     margin: 30px 0 0;
 }
+
+.about-footer .btn {
+    width: 100%;
+}
+
+.about-footer .btn:hover {
+    background-color: #ffffff;
+    color: #196fc2;
+    border-color: #196fc2;
+}
+
+.about-footer .btn:focus {
+    background-color: #ffffff;
+    color: #196fc2;
+    border-color: #196fc2;
+}
+
 
 @media only screen and (max-width: 767px) {
     .section-about .row {
@@ -842,7 +859,7 @@ Section: About
 }
 
 .about-content .row {
-    margin-top: 40px;
+    margin-top: 27px;
 }
 
 .about-content ul {
@@ -2513,6 +2530,12 @@ MODALS
 }
 
 .modal-footer .btn:hover {
+    background-color: #ffffff;
+    color: #196fc2;
+    border-color: #196fc2;
+}
+
+.modal-footer .btn:focus {
     background-color: #ffffff;
     color: #196fc2;
     border-color: #196fc2;
