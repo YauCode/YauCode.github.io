@@ -270,6 +270,10 @@ body {
     object-fit: cover;
 }
 
+/* Spam protection */
+span.spamprotection {
+    display: none;
+}
 
 /*===================================================
 HEADER
@@ -1371,9 +1375,21 @@ Section: Reviews
     box-shadow: none;
 }
 
+.review .avatar {
+    width: 120px;
+    height: 120px;
+    border: 0;
+    border-radius: 50%;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: none;
+}
+
+
 .review .img-res {
-    max-width: 150%;
-    max-height: 150%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
 }
 
 .review p {
@@ -1401,9 +1417,15 @@ Section: Reviews
     margin: 0 auto;
 }
 
+.review h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
 .review .review-author h3 {
-    margin: 0;
-    font-size: 14px;
+    margin: 10px;
+    font-size: 16px;
     color: #ffffff;
 }
 
