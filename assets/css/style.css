@@ -535,6 +535,14 @@ HERO
     color: #ffffff;
 }
 
+.hero-arrow h3 {
+    position: relative;
+    right: 75px;
+    color: #ffffff;
+    width: 200px;
+    margin: 0;
+}
+
 
 @-webkit-keyframes home-arrow-down {
     from {
@@ -631,6 +639,20 @@ HERO
         margin: 20px auto 0;
     }
 }
+
+@media only screen and (max-height: 690px) {
+
+    .hero-arrow a {
+        font-size: 35px;
+    }
+
+    .hero-arrow h3 {
+        font-size: 18px;
+        right: 85px;
+
+    }
+}
+
 
 /*===================================================
 SITEMAIN
@@ -1459,7 +1481,7 @@ Section: Reviews
 }
 
 /*===================================================
-Section: History
+Section: History / Education
 ===================================================*/
 
 .section-history {
